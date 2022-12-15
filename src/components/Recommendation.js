@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useHistory } from 'react-router-dom';
+import '../pages/styles/RecipeDetails.css';
 
 export default function Recommendation({ recipes, type }) {
   const maxItems = 6;

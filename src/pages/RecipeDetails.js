@@ -87,7 +87,7 @@ function RecipeDetails({ match, history, location }) {
   };
 
   return (
-    <div>
+    <div style={{marginBottom: '100px'}}>
 
       {/* <button
         type="button"

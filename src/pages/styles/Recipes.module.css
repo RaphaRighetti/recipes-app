@@ -1,0 +1,52 @@
+.container_recipes {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0 77px;
+}
+
+.container_recipes .recipe {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.container_recipes .card {
+  align-items: center;
+  background-color: #fcc436;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  margin: 15px 7px;
+  width: 150px;
+}
+
+.container_recipes .card p {
+  color: #c22323;
+  font-family: Epilogue , sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.btn__filter {
+  background-color: #fcc436;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.45);
+  margin-bottom: 5px;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.container__btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+  width: 100%;
+}
+

@@ -1,0 +1,18 @@
+.footer {
+  background-color: #c22323;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  width: 100%;
+}
+
+.footer button {
+  background-color: #fcc436;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.footer img {
+  width: 40px;
+}

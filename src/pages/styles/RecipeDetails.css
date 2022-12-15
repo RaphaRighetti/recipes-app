@@ -1,0 +1,41 @@
+.container-recommend {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 320px;
+  overflow-x: scroll;
+  width: 95%;
+}
+
+.box-recommend {
+  align-items: center;
+  background-color: #fcc436;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+}
+
+.box-recommend img {
+  border: none;
+  box-shadow: 0;
+  max-width: 150px;
+  width: clamp(50px, 42vw, 150px);
+
+}
+
+.box-recommend p {
+  color: #c22323;
+  font-family: Epilogue , sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.favorite-btn {
+  display: none;
+}
+
+.heart-icon {
+  width: 25px;
+}

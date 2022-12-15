@@ -1,0 +1,108 @@
+@keyframes link-text {
+
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    top: -5px;
+  }
+}
+
+.container_recipes {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
+  padding-bottom: 50px;
+}
+
+.linkContainer {
+  height: 35px;
+  position: relative;
+  width: 60px;
+}
+
+.animationStart {
+  animation: link-text 0.8s;
+}
+
+.card {
+  align-items: center;
+  background-color: #fcc436;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.45);
+  display: flex;
+  flex-direction: column;
+  margin: 15px 7px;
+  user-select: none;
+  width: 150px;
+}
+
+.buttonsContainer {
+  display: flex;
+  padding: 10px 0 15px;
+}
+
+.shareImg {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.heartBox {
+  font-size: 12px;
+  font-weight: 500;
+  height: 35px;
+  position: relative;
+  width: 60px;
+}
+
+.heartBox img {
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.card p {
+  color: #c22323;
+  font-family: Epilogue , sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.recipe {
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.linkContainer p {
+  font-size: 10px;
+  font-weight: 500;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.date {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.shareIcon {
+  cursor: pointer;
+}

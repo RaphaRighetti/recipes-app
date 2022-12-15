@@ -1,0 +1,23 @@
+.user__email {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.profilePage .container_btn {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.container_btn button {
+  border: none;
+  color: #c22323;
+  font-family: Epilogue , sans-serif;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.container_btn img {
+  width: 40px;
+}
